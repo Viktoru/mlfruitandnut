@@ -10,7 +10,7 @@
 
 ### Step 1
 
-- The construction.js file. This is a custom function. You can visit this website for more information. 
+- The construction.js file. This is a custom function. You can visit [this website](https://datatables.net/examples/index) for more information. 
 - Disable bPaginate and bLength
 
 ```bash
