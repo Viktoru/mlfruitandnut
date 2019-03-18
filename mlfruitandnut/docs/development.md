@@ -1,5 +1,37 @@
-1.- The module mlfruitandnut has four folders if a developer want to contribute to this project.
-Please, find more details at [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
+# Development
+
+## Steps
+
+1.- The module mlfruitandnut has four folders.
+
+-Please, find more details at [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
+
+2.- On the folder "assets", I have subfolders, DataTables libraries and construction.js file.
+
+### Step 1
+
+-The construction.js file.
+
+```bash
+(function($, Drupal) {
+  Drupal.AjaxCommands.prototype.customDataTables = function(ajax, response, status){
+    // Place content in current-msg div.
+    $('#response-result').html(response.content);
+    $('#construction-table').DataTable({
+	    "searching": false,
+		  "bFilter" : false,
+		  "bLengthChange": false,
+      "ordering": true,
+      "columns": [
+        null,
+        null
+        	});
+          };
+``` 
+        
+
+
+
 
  * On the folder assets, I have a JavaScript Library called DataTables, for more information see Built With section.
 You can modify this file as you witch. 
