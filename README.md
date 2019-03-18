@@ -1,4 +1,4 @@
-# FRUIT AND NUT DATABASE
+# FRUIT AND NUT PROJECT
 
 The custom module called Overview list displays a Crop and Cultivars, allowing data to be displayed  "dynamically". You can expand the symbol "+" to see more details from each crop and cultivar.
 
