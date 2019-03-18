@@ -46,9 +46,9 @@ or retrieve the #content of the data. In this case the Crop, Cultivar and Descri
 2.- If the developer want to update the config file you need to visit this [Creating a custom content type in D8](https://www.drupal.org/docs/8/api/entity-api/creating-a-custom-content-type-in-drupal-8) for more information. The install file 
     allow to create a Content Types form. 
 
-3. After the form was created in the Content Types section, you need to consider to upload the data through csv_import module.
+3.- After the form was created in the Content Types section, you need to consider to upload the data through csv_import module.
 
-4. You need a format to do that, please visit this link []() for more information.
+4.- You need a format to do that, please visit this link []() for more information.
 
 
 
