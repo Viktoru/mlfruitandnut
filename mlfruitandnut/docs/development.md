@@ -1,4 +1,6 @@
-1.- The module mlfruitandnut has three folders if a developer want to contribute to this project.
+1.- The module mlfruitandnut has four folders if a developer want to contribute to this project.
+Please, find more details at [see image]()
+
  * On the folder assets, I have a JavaScript Library called DataTables, for more information see Built With section.
 You can modify this file as you witch. 
  * The Construction js file connected to the datatable. It retrieves the body and title based on the Crop and Cultivar.
