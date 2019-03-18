@@ -1,0 +1,22 @@
+# field.field.node.construction.field_mlfruitandnut_origin.yml
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mlfruitandnut_origin
+    - node.type.mlfruitandnut
+  module:
+    - text
+id: node.mlfruitandnut.field_mlfruitandnut_origin
+field_name: field_mlfruitandnut_origin
+entity_type: node
+bundle: mlfruitandnut
+label: 'Origin'
+description: 'More specific information about the Origin'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: string

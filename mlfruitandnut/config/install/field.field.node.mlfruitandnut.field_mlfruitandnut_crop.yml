@@ -1,0 +1,21 @@
+# field.field.node.construction.field_mlfruitandnut_crop.yml
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mlfruitandnut_crop
+    - node.type.mlfruitandnut
+  module:
+    - options
+id: node.mlfruitandnut.field_mlfruitandnut_crop
+field_name: field_mlfruitandnut_crop
+entity_type: node
+bundle: mlfruitandnut
+label: 'Crop'
+description: 'More specific information about the Crop'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: { }
+field_type: list_string

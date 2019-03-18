@@ -1,0 +1,6 @@
+mlfruitandnut.modal:
+  path: '/mlfruitandnut_search/data'
+  defaults:
+    _form: '\Drupal\mlfruitandnut\Form\Mlfruitandnut_form'
+  requirements:
+    _access: 'TRUE'

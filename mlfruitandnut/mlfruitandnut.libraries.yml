@@ -1,0 +1,33 @@
+#global-styling:
+#  version: 1.0
+#  css:
+#    layout:
+#      /css/bootstrapTableSearch.css: {}
+#    theme:
+#      /css/bootstrapTableSearch.css: {}
+#  js:
+#    /js/bootstrapTableSearch.js: {}
+#  dependencies:
+#    - core/jquery
+#    - core/drupalSettings
+#    - core/drupal.ajax
+#    - core/drupal
+#    - core/drupalSettings
+#    - core/jquery.once
+
+datatables:
+  version: 1.10.18
+  css:
+    theme:
+      assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.css: {}
+  js:
+    assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.js: {}
+    assets/DataTables/Buttons-1.5.2/js/dataTables.buttons.min.js: {}
+    assets/construction.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

@@ -1,0 +1,22 @@
+# field.field.node.construction.field_mlfruitandnut_tree.yml
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mlfruitandnut_tree
+    - node.type.mlfruitandnut
+  module:
+    - text
+id: node.mlfruitandnut.field_mlfruitandnut_tree
+field_name: field_mlfruitandnut_tree
+entity_type: node
+bundle: mlfruitandnut
+label: 'Tree'
+description: 'More specific information about the Tree'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: string

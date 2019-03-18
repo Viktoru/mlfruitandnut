@@ -1,0 +1,11 @@
+name: MLFRUITANDNUT
+description: 'Welcome to the Fruit and Nut Database (FNCD).'
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+
+dependencies:
+  - node
+  - path
+  - text

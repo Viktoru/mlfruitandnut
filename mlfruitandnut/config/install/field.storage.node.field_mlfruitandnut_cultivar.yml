@@ -1,0 +1,21 @@
+# field.storage.node.field_mlfruitandnut_cultivar
+# This file will inform Drupal that it should create our field.
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_mlfruitandnut_cultivar
+field_name: field_mlfruitandnut_cultivar
+entity_type: node
+type: text
+settings:
+    trim_length: 1000
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
