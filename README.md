@@ -28,7 +28,15 @@ Before you install this custom module you need to install another module called 
 
 To install this custom module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend to install the module.
 
-This custom module works with a content type form already created by a second custom module called mlfruitandnut. This custom module installs and sets up the content type form based on data already inserted by a second module.
+This custom module works with a content type form already created.
+After you install this module, it will create a Content Types called Main Lab Fruit and Nut.
+
+### Developer
+
+
+
+
+This custom module installs and sets up the content type form based on data already inserted by a second module.
 
 ## Running the tests
 
