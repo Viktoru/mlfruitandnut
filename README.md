@@ -24,11 +24,11 @@ Before you install this custom module you need to install another module called 
 
 ### Installing
 
-To install this custom module you just need to copy the module into your Drupal 8 Module folder or custom folder. 
+To install mlfruitandnut module you just need to copy the module into your Drupal 8 Module folder or custom folder. 
 After that go to my Drupal 8 Extend Menu to install the module.
 
-This custom module works with a content type form already created.
 After you install this module, it will create a Content Types called Main Lab Fruit and Nut.
+Also, it will create a page called "mainlab_list:. If you domain is domainName.com/mainlab_list. Add /mainlab_list after your domainname of your hosting.
 
 ### Developers
 
