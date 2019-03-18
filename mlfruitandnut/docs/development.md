@@ -6,11 +6,12 @@
 
 -Please, find more details at [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
 
-2.- On the folder "assets", I have subfolders, DataTables libraries and construction.js file.
+2.- On the folder "assets", I have the subfolders DataTables and construction.js file.
 
 ### Step 1
 
--The construction.js file.
+- The construction.js file. This is a custom function. You can visit this website for more information. 
+- Disable bPaginate and bLength
 
 ```bash
 (function($, Drupal) {
@@ -28,6 +29,29 @@
         	});
           };
 ``` 
+
+- You can create your own examples:
+
+```bash
+$('#example').dataTable( {
+  "lengthChange": false
+} );
+
+```
+
+- Disable filtering on the first column:
+
+```bash
+$('#example').dataTable( {
+  "columns": [
+    { "searchable": false },
+    null,
+    null,
+    null,
+    null
+  ]
+} );
+```
         
 
 
