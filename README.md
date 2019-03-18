@@ -15,25 +15,25 @@ Before you install this custom module you need to install another module called 
 - path
 - text
 
-
 ### Prerequisites
 
 - Drupal 8.6.x
 - PHP 7.1.x
-- Custom module mlfruitandnut (D8)
 - MySQL or  PostgreSQL
 - CSV Import Module [CSV Import](https://www.drupal.org/project/csv_importer) - Downloads 8.x.1.4
 
 ### Installing
 
 To install this custom module you just need to copy the module into your Drupal 8 Module folder or custom folder. 
-After that go to my Drupal 8 Extend to install the module.
+After that go to my Drupal 8 Extend Menu to install the module.
 
 This custom module works with a content type form already created.
 After you install this module, it will create a Content Types called Main Lab Fruit and Nut.
 
-### Developer
+### Developers
 
+1.- The module mlfruitandnut has three folders if a developer want to contribute to this project.
+* On the folder assets, I have a JavaScript Libraries called DataTables, for more information see Built With section.
 
 
 
@@ -45,6 +45,7 @@ To run a test you need to install the mlfruitandnut module. Next, add data into 
 
 ## Built With
 
+* [DataTable](https://datatables.net/) - Add advanced interaction controls to your HTL tables.
 * [CodyHouse](https://codyhouse.co/) - The web framework used
 * [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local by Victor
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
