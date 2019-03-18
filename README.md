@@ -1,13 +1,19 @@
 # FRUIT AND NUT PROJECT
 
-The custom module called Overview list displays a Crop and Cultivars, allowing data to be displayed  "dynamically". You can expand the symbol "+" to see more details from each crop and cultivar.
+The custom module called mlfruitandnut search and display dynamically crops and cultivars.
 
+Please find the images to have a view about the module.
 Examples: [image one](/ScreenShot1.png), [image two](/ScreenShot2.png) and [image three](/ScreenShot3.png)
 
 ## Getting Started
 
-Before you install this custom module you need to install another custom module called mlfruitandnut. Please find more information in my github custom module mlfruitandnut.
-After you install that module you will be able to install this module Overview.
+Before you install this custom module you need to install another module called csv_import (D8). 
+
+### Dependencies:
+
+- node
+- path
+- text
 
 
 ### Prerequisites
