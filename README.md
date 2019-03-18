@@ -32,7 +32,7 @@ After you install this module, it will create a Content Types called Main Lab Fr
 
 ### Developers
 
-For information on the installation and development of mlfruitandnut module, please take a look at [doc/development.md]()
+For information on the installation and development of mlfruitandnut module, please take a look at [doc/development.md](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md)
 
 ## Running the tests
 
