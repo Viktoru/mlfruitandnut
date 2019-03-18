@@ -1,5 +1,5 @@
 1.- The module mlfruitandnut has four folders if a developer want to contribute to this project.
-Please, find more details at [see image]()
+Please, find more details at [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
 
  * On the folder assets, I have a JavaScript Library called DataTables, for more information see Built With section.
 You can modify this file as you witch. 
