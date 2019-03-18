@@ -40,11 +40,11 @@ To run a test you need to install the mlfruitandnut module. Next, add data into 
 
 ## Built With
 
-* [DataTable](https://datatables.net/) - Add advanced interaction controls to your HTL tables.
-* [CodyHouse](https://codyhouse.co/) - The web framework used
-* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local by Victor
-* [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
-* [PHP 7.1.x](http://php.net/) - PHP version
+* [DataTable](https://datatables.net/) - Add advanced interaction controls to your HTML Tables.
+* [CodyHouse](https://codyhouse.co/) - The web framework used.
+* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local by Victor.
+* [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme.
+* [PHP 7.1.x](http://php.net/) - PHP version.
 
 ## Contributing
 
