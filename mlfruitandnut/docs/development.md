@@ -154,6 +154,21 @@ $('#example').dataTable( {
  
  - After a user select a Crop. Next, it will display two options from the function __get_activity_options, "All Cultivars" title option and
  a Cultivar list based what Crop was selected. 
+ 
+ ```bash
+  
+     $form['mlfruitandnut_title'] = [
+        '#type' => 'select',
+        '#title' => $this->t('Select Cultivar'),
+        '#options' => $this->__get_activity_options($selected),
+        '#default_value' => array(),
+        '#multiple' => true,
+        '#description' => t('First, select a CROP.'),
+        '#prefix' => '<div id="activity-replace">',
+        '#suffix' => '</div><p></p>',
+      ];
+      
+  ```
 
  - The $selected variable is getting the value from:  
  
@@ -161,20 +176,7 @@ $('#example').dataTable( {
  $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
  ```
  
- ```bash
  
-    $form['mlfruitandnut_title'] = [
-       '#type' => 'select',
-       '#title' => $this->t('Select Cultivar'),
-       '#options' => $this->__get_activity_options($selected),
-       '#default_value' => array(),
-       '#multiple' => true,
-       '#description' => t('First, select a CROP.'),
-       '#prefix' => '<div id="activity-replace">',
-       '#suffix' => '</div><p></p>',
-     ];
-     
- ```
  
  
  
