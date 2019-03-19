@@ -8,10 +8,11 @@
 
 2.- In the folder "assets", I have the subfolders DataTables and construction.js file.
 
-### Step 1
+### Editing Construction.js file - Disable bPaginate and bLength
 
-- The construction.js file. This is a custom function. You can visit [this website](https://datatables.net/examples/index) for more information. 
-- Disable bPaginate and bLength
+- The construction.js file, it is a custom function built for this custom module.
+You can visit [this website](https://datatables.net/examples/index) for more information. 
+
 
 ```bash
 (function($, Drupal) {
