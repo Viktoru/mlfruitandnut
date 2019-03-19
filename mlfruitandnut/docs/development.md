@@ -4,7 +4,7 @@
 
 1.- The module mlfruitandnut has four folders.
 
--Please, find more details at [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
+- Please, find more details [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
 
 2.- On the folder "assets", I have the subfolders DataTables and construction.js file.
 
