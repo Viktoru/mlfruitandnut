@@ -176,7 +176,7 @@ $('#example').dataTable( {
  $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
  ```
  
- - The function __get_activity_options looks like: Here is comparing a string $key, that at the begining started as empty.
+ - The function __get_activity_options looks like: At here the function is executing $selected to $key.
  
  
  ```bash
