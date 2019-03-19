@@ -286,3 +286,50 @@ $('#example').dataTable( {
   
   ```
  
+ - In this section is displaying a table, Crops, Cultivar & Description. It is creating a CSV file to donwload the record(s).
+ 
+ ```bash
+ 
+       $query->condition('type', 'mlfruitandnut');
+       $entity = $query->execute();
+ 
+       $response = new AjaxResponse();
+       if (empty($entity)) {
+         $content = '<p></p>';
+         foreach($form_state->getValue('mlfruitandnut_title') as $k=>$i){
+           $content .= $i;
+         }
+         $content .= '<div class="alert alert-info" role="alert">' . $category_title . ' Record Not Found </div>';
+         $response->addCommand(new HtmlCommand('#response-result', $content, $entity));
+       }
+       else {
+         //  $content = "<div class='container'>";
+         $content = "<h2></h2>";
+         $now = new DrupalDateTime('now');
+         $file_name = 'searchresult'.strtotime($now).'.csv';
+         $file_path = 'public://csvtemp/';
+         file_prepare_directory($file_path, FILE_CREATE_DIRECTORY);
+         $fp = fopen('public://csvtemp/'.$file_name, 'w');
+         $content .= "<div class='table-responsive'><a class='btn' style='float:right;' target='_blank' href='".'/sites/default/files/csvtemp/'.$file_name."'>CSV</a><table id='construction-table' data-page-length='10' class='display'><thead><tr><th>CULTIVAR NAME</th><th>DESCRIPTION</th></tr></thead><tbody>";
+         $csv = array();
+         $csv[] = array('id','field_mlfruitandnut_cultivar','body');
+         $id = 1;
+         foreach ($entity as $k) {
+           $node = \Drupal\node\Entity\Node::load($k);
+           $content .= '<tr><td style="width:15%">' . $node->getTitle() . '</td>';
+           $content .= '<td class="dt-body-justify" style="width:40%">' . $node->body->value . '</td>';
+           $csv[] = array($id,$node->get('field_mlfruitandnut_cultivar')->value,strip_tags(trim($node->body->value)));
+           $id++;
+         }
+ 
+         foreach ($csv as $fields) {
+           fputcsv($fp, $fields);
+         }
+         fclose($fp);
+         $content .= "</tbody></table></div>";
+         $response->addCommand(new DataTablesCommand($content));
+       }
+       return $response;
+     }
+ 
+ ```
