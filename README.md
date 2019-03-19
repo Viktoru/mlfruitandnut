@@ -11,7 +11,7 @@ After you install this custom module you need to add the field "link_the_site". 
 Overview. Go to your Content Types, select "Main Lab Fruit and Nut". Click on Manage Fields and Add field called "field_link_the_site".
 Make sure is exactly the same name. Otherwise, it will return an error after you install the module Overview.
 
-Option to Clone the git repo -- git clone https://github.com/Viktoru/mlfruitandnut.git
+Option to Clone the git repo -- git clone ```bash https://github.com/Viktoru/mlfruitandnut.git```
 
 Note: In the future you can create a Custom Content Type by creating a YAML file that contain all the required configuration.
 For more details go to the mlfruitandnut>config>install folders for examples or visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
