@@ -61,7 +61,19 @@ $('#example').dataTable( {
  - Also, I have a Class ResetButtonCommand.php file. It is the same concept from the DataTablesCommand.php file. However, pass AjaxResponse object to render "resetButtonCommand".
  
  
+ - Example script, resetButtonCommand
  
+ ```bash
+ Drupal.AjaxCommands.prototype.resetButtonCommand = function(ajax, response, status){
+ 	  console.log(response.content);
+     jQuery('#mlfruitandnut-search').trigger("reset"); 
+     jQuery("select[data-drupal-selector=edit-construction-title] option").prop("selected", function(){ return this.defaultSelected; }); 
+     jQuery("#response-result").html("");
+     $("select[data-drupal-selector=edit-mlfruitandnut-title]").html("");
+     return false;
+   };
+ 
+ ```
   
  
  called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
