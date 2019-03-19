@@ -53,7 +53,7 @@ $('#example').dataTable( {
   ]
 } );
 ```
- - The Construction.js file allows to sort columns. [Image one](ScreenShot5.png) and [Image two](ScreenShot6.png).
+ - The Construction.js file allows to sort columns. [Image one](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot5.png) and [Image two](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot6.png).
  
  
  
