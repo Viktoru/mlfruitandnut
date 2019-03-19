@@ -79,7 +79,6 @@ class Mlfruitandnut_form extends FormBase {
       '#options' => $this->__get_activity_options($selected),
       '#default_value' => array(),
       '#multiple' => true,
-//      '#required' => TRUE,
       '#description' => t('First, select a CROP.'),
       '#prefix' => '<div id="activity-replace">',
       '#suffix' => '</div><p></p>',
@@ -131,8 +130,6 @@ class Mlfruitandnut_form extends FormBase {
      */
     $form['#prefix'] = '<div id="search-result1"></div><p></p>';
     $form['#prefix'] = '<div id="search-result_title"></div>';
-//    $form['#title'] = '<div class="jumbotron"><h2>Welcome</h2><p></p> to the Fruit and Nut Cultivars Database (FNCD).
-//    From this site you can search and download all the information provided in the American Pomological Society’s</div>';
 
     return $form;
   }
@@ -185,11 +182,9 @@ class Mlfruitandnut_form extends FormBase {
       $query->condition('field_mlfruitandnut_crop', $key);
       $query->condition('type', 'mlfruitandnut');
       $entitystate = $query->execute();
-
-      //    dsm($entitystate);
       
       if(!empty($entitystate)){
-        $options['all'] = $this->t('- All Crop -');
+        $options['all'] = $this->t('- All Cultivar -');
         foreach ($entitystate as $k) {
           $node = \Drupal\node\Entity\Node::load($k);
           $options[$node->id()] =  $node->getTitle();
