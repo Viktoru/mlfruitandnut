@@ -10,7 +10,7 @@
 
 #### Editing Construction.js file - Disable bPaginate and bLength
 
-- The construction.js file, it is a custom function built for this custom module.
+- The construction.js file, it is a custom function built for the custom module mlfruitandnut.
 You can visit [this website](https://datatables.net/examples/index) for more information. 
 
 
@@ -53,14 +53,11 @@ $('#example').dataTable( {
   ]
 } );
 ```
-        
-
-
-
-
- * On the folder assets, I have a JavaScript Library called DataTables, for more information see Built With section.
-You can modify this file as you witch. 
- * The Construction js file connected to the datatable. It retrieves the body and title based on the Crop and Cultivar.
+ - The Construction.js file allows to sort columns. [Image one](ScreenShot5.png) and [Image two](ScreenShot6.png).
+ 
+ 
+ 
+ It retrieves the body and title based on the Crop and Cultivar.
  * The src folder, it has a Form and Ajax folder. The Ajax folder has two classes. The DataTablesCommand.php file will return 
 or retrieve the #content of the data. In this case the Crop, Cultivar and Description. There is not need to modify this file.
  * The ResetButtonCommand.php file, it will reset the search.
