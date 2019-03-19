@@ -111,10 +111,7 @@ $('#example').dataTable( {
 - Create a pulldown menu to select a Crop. It is a Ajax callback named "::promptCallbackCrop". If you want to re-name it. First, you have to change the Custom Content Type.
 
 ```bash
-/**
-     * $form select mlfruitandnut_crop
-     * Also return ajax callback ::promptCallbackCrop
-     */
+
     $form['mlfruitandnutcrop'] = [
       '#title' => $this->t('Select Crop Category'),
       '#type' => 'select',
