@@ -1,14 +1,14 @@
 # Development
 
-## Steps
+## Instroduction
 
-1.- The module mlfruitandnut has four folders.
+1.- The module mlfruitandnut has four folders. You can change this by ging to DataTable.js website to download latest version.
 
 - Please, find more details here: [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
 
-2.- In the folder "assets", I have the subfolders DataTables and construction.js file.
+2.- In the folder "assets", I have the subfolders, DataTables and construction.js file.
 
-### Editing Construction.js file - Disable bPaginate and bLength
+#### Editing Construction.js file - Disable bPaginate and bLength
 
 - The construction.js file, it is a custom function built for this custom module.
 You can visit [this website](https://datatables.net/examples/index) for more information. 
