@@ -1,8 +1,3 @@
-```ruby
-  def foo
-    puts 'bar'
-  end
-```
 # Development
 
 ## Introduction
