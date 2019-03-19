@@ -244,3 +244,45 @@ $('#example').dataTable( {
  
  ```
  
+ - The next function called promptCallbackSearch. This function retrieve and display Crops, Cultivars & Description.
+ 
+ + It is getting two values mlfruitandnutcrop & mlfruitandnut_title.
+ 
+  ```bash
+  
+ if ($form_state->hasAnyErrors()) {
+      return $form;
+    }
+    else {
+      /**
+       * Search for node_title \Drupal::entityQuery('node');
+       */
+      $construction_time = $form_state->getValue('mlfruitandnutcrop');
+      $construction_title = $form_state->getValue('mlfruitandnut_title');
+
+      $query = \Drupal::entityQuery('node');
+      $query->condition('status', 1);
+      if($construction_time){
+        if($construction_title){
+          foreach($construction_title as $k => $i) {
+            if($i != 'all') {
+              $query->condition('nid', $construction_title,'IN');
+
+            }else {
+              $query->condition('field_mlfruitandnut_crop', $construction_time);
+            }
+          }
+        }else{
+          $query->condition('field_mlfruitandnut_crop', $construction_time);
+        }
+      }else{
+        if($construction_title) {
+          foreach($construction_title as $k => $i) {
+            if($i != 'all')
+              $query->condition('nid', $construction_title,'IN');
+          }
+        }
+      }
+  
+  ```
+ 
