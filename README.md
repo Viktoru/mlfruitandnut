@@ -12,7 +12,8 @@ Overview. Go to your Content Types, select "Main Lab Fruit and Nut". Click on Ma
 Make sure is exactly the same name. Otherwise, it will return an error after you install the module Overview.
 
 Note: In the future you can create a Custom Content Type by creating a YAML file that contain all the required configuration.
-For more details go to the mlfruitandnut>config>install folders for examples.
+For more details go to the mlfruitandnut>config>install folders for examples or visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
+
 
 ### Dependencies:
 
