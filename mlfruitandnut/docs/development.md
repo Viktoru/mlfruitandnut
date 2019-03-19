@@ -303,7 +303,6 @@ $('#example').dataTable( {
          $response->addCommand(new HtmlCommand('#response-result', $content, $entity));
        }
        else {
-         //  $content = "<div class='container'>";
          $content = "<h2></h2>";
          $now = new DrupalDateTime('now');
          $file_name = 'searchresult'.strtotime($now).'.csv';
