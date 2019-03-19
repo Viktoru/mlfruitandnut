@@ -155,7 +155,11 @@ $('#example').dataTable( {
  - After a user select a Crop. Next, it will display two options from the function __get_activity_options, "All Cultivars" title option and
  a Cultivar list based what Crop was selected. 
 
- - The $selected variable is getting the value from:  $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
+ - The $selected variable is getting the value from:  
+ 
+ ```bash
+ $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
+ ```
  
  ```bash
  
