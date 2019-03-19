@@ -75,6 +75,38 @@ $('#example').dataTable( {
  
  ```
   
+ - Here is the whole script from the construction.js file.
+ 
+ ```bash
+ (function($, Drupal) {
+   
+   Drupal.AjaxCommands.prototype.customDataTables = function(ajax, response, status){
+     // Place content in current-msg div.
+     $('#response-result').html(response.content);
+     $('#construction-table').DataTable({
+ 	    "searching": false,
+ 		  "bFilter" : false,
+ 		  "bLengthChange": false,
+       "ordering": true,
+       "columns": [
+         null,
+         null
+           ]
+ 	});
+   };
+   Drupal.AjaxCommands.prototype.resetButtonCommand = function(ajax, response, status){
+ 	  console.log(response.content);
+     jQuery('#mlfruitandnut-search').trigger("reset"); 
+     jQuery("select[data-drupal-selector=edit-construction-title] option").prop("selected", function(){ return this.defaultSelected; }); 
+     jQuery("#response-result").html("");
+     $("select[data-drupal-selector=edit-mlfruitandnut-title]").html("");
+     return false;
+   };
+ })(jQuery, Drupal);
+ ```
+ 
+ 
+ 
  
  called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
    Also, includes several function to return key, crop, cultivar and description for each cultivar. 
