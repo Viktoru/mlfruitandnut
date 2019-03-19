@@ -56,15 +56,15 @@ $('#example').dataTable( {
  - The Construction.js file allows to sort columns. [Image one](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot5.png) and [Image two](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot6.png).
  
  - In the src folder, under the folder Ajax the DataTablesCommand.php Class file allows to pass AjaxResponse objects "#content".
-   In this case, the Crops, Cultivars and Descriptions. There is not need to modify this file. For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Ajax%21CommandInterface.php/interface/CommandInterface/8.2.x).
+   In this case, the Crops, Cultivars and Descriptions. There is not need to modify this file. For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Ajax%21RestripeCommand.php/class/RestripeCommand/8.0.x).
+ 
+ - Also, I have a Class ResetButtonCommand.php file. It is the same concept from the DataTablesCommand.php file. However, pass AjaxResponse object to render "resetButtonCommand".
  
  
  
+  
  
- 
- 
- * The ResetButtonCommand.php file, it will reset the search.
- * The Form folder, I have a Class called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
+ called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
    Also, includes several function to return key, crop, cultivar and description for each cultivar. 
    Finally, it return a CSV file to download based on the search by crop and cultivar.
 
