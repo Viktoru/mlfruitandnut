@@ -43,6 +43,25 @@ After that go to my Drupal 8 Extend Menu to install the module.
 After you install this module, it will create a Content Types called Main Lab Fruit and Nut.
 Also, it will create a page called "mainlab_list:. If you domain is domainName.com/mainlab_list. Add /mainlab_list after your domainname of your hosting.
 
+### How to add Crops to the field_mlfruitandnut_crop field
+
+* Once you are ready to upload the data for a specific Crop and cultivars add your Crop name to the field 
+field_mlfruitandnut_crop. Go to your Content Type and click List(text). Some examples:
+
+Apple|Apple
+Abiu|Abiu
+Acerola/Barbados Cherry|Acerola/Barbados Cherry
+Almond Rootstock|Almond Rootstock
+Atemoya|Atemoya
+Banana/Plantain|Banana/Plantain
+Beach Plum|Beach Plum
+Butternut|Butternut
+Cacao|Cacao
+Canistel|Canistel
+Carambola|Carambola
+
+
+
 ### Developers
 
 For information on the installation and development of mlfruitandnut module, please take a look at [doc/development.md](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md)
