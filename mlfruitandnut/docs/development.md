@@ -1,3 +1,8 @@
+```ruby
+  def foo
+    puts 'bar'
+  end
+```
 # Development
 
 ## Introduction
@@ -106,7 +111,10 @@ $('#example').dataTable( {
  ```
  
  
- 
+3.- How #form works?
+
+
+
  
  called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
    Also, includes several function to return key, crop, cultivar and description for each cultivar. 
