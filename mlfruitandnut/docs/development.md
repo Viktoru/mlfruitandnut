@@ -108,8 +108,56 @@ $('#example').dataTable( {
  
 3.- How #form works?
 
+- It is creating a pulldown menu. An user can select a Crop. Used Ajax callback to return ::promptCallbackCrop function.
 
+```bash
+/**
+     * $form select mlfruitandnut_crop
+     * Also return ajax callback ::promptCallbackCrop
+     */
+    $form['mlfruitandnutcrop'] = [
+      '#title' => $this->t('Select Crop Category'),
+      '#type' => 'select',
+      '#options' => $options_first,
+      '#default_value' => $selected,
+      '#empty_option' => $this->t('- Select a Crop -'),
+      '#sort_order' => 'asc',
+      '#required' => TRUE,
 
+      '#ajax' => [ // Ajax callback
+        'callback' => '::promptCallbackCrop',
+        'wrapper' => 'activity-replace',
+        'effect' => 'fade',
+        'event' => 'change',
+        'progress' => [
+          'type' => 'throbber',
+          // Message to show along progress graphic. Default: 'Please wait...'.
+          'message' => NULL,
+        ],
+      ],
+    ];
+
+```
+
+ - ::promptCallbackCrop Script function
+ 
+ ```bash
+ /**
+    * @param array $form
+    * @param \Drupal\Core\Form\FormStateInterface $formState
+    *
+    * @return mixed
+    */
+   public function promptCallbackCrop(array &$form, FormStateInterface $formState) {
+ 
+     return $form['mlfruitandnut_title'];
+   }
+ 
+ ```
+ 
+ 
+ 
+ 
  
  called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
    Also, includes several function to return key, crop, cultivar and description for each cultivar. 
