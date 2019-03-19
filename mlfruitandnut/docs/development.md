@@ -136,7 +136,7 @@ $('#example').dataTable( {
 
 ```
 
- - ::promptCallbackCrop Script function
+ - ::promptCallbackCrop Script function: Returning Crops.
  
  ```bash
  /**
