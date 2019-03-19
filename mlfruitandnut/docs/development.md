@@ -176,8 +176,38 @@ $('#example').dataTable( {
  $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
  ```
  
+ - The function __get_activity_options looks like: Here is comparing a string $key, that at the begining started as empty.
  
  
+ ```bash
+ 
+ /**
+    * @param string $key
+    *
+    * @return array
+    */
+   public function __get_activity_options($key = '') {
+     $options = array();
+     if($key) {
+       $query = \Drupal::entityQuery('node');
+       $query->condition('status', 1);
+       $query->sort('title', 'ASC');
+       $query->condition('field_mlfruitandnut_crop', $key);
+       $query->condition('type', 'mlfruitandnut');
+       $entitystate = $query->execute();
+       
+       if(!empty($entitystate)){
+         $options['all'] = $this->t('- All Cultivar -');
+         foreach ($entitystate as $k) {
+           $node = \Drupal\node\Entity\Node::load($k);
+           $options[$node->id()] =  $node->getTitle();
+         }
+       }
+     }
+     return $options;
+   }
+    
+  ```
  
  
  called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
