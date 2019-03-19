@@ -209,6 +209,41 @@ $('#example').dataTable( {
     
   ```
  
+ - This action, it is a reset button. It has a callback function "::promptCallbackReset".
+ 
+ ```bash
+ 
+ $form['actions']['reset'] = array(
+       '#type' => 'submit',
+       '#value' => $this->t('Reset'),
+       '#ajax' => [ // Ajax callback
+         'callback' => '::promptCallbackReset',
+         // callback function promptCallback
+         'wrapper' => 'activity-replace',
+         'effect' => 'fade',
+         'progress' => [
+           'type' => 'throbber',
+           // Message to show along progress graphic. Default: 'Please wait...'.
+           'message' => NULL,
+         ],
+       ],
+       '#suffix' => '<div id="response-result"></div><p></p>',
+     );
+ 
+ ```
+ 
+ - Callback function promptCallbackReset.
+ 
+ ```bash
+ 
+   public function promptCallbackReset(array &$form, FormStateInterface $form_state) {
+     $response = new AjaxResponse();
+     $response->addCommand(new ResetButtonCommand('test'));
+     return $response;
+   }
+ 
+ ```
+ 
  
  called Mlfruitandnut_form. It is building a #form by using a ajax return to display the Crops and Cultivars.
    Also, includes several function to return key, crop, cultivar and description for each cultivar. 
