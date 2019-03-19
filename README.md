@@ -1,6 +1,6 @@
 # FRUIT AND NUT PROJECT
 
-The custom module called mlfruitandnut search and display dynamically crops and cultivars.
+The custom module mlfruitandnut search and display dynamically crops and cultivars.
 
 Please find the images to have a view about the module.
 Examples: [image one](/ScreenShot1.png), [image two](/ScreenShot2.png) and [image three](/ScreenShot3.png)
