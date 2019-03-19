@@ -108,7 +108,7 @@ $('#example').dataTable( {
  
 3.- How #form works?
 
-- It is creating a pulldown menu. An user can select a Crop. Used Ajax callback to return ::promptCallbackCrop function.
+- Create a pulldown menu to select a Crop. It is a Ajax callback named "::promptCallbackCrop". If you want to re-name it. First, you have to change the Custom Content Type.
 
 ```bash
 /**
