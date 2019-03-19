@@ -75,7 +75,7 @@ $('#example').dataTable( {
  
  ```
   
- - Putting together the whole script for construction.js file.
+ - Putting the script all together, construction.js file.
  
  ```bash
  (function($, Drupal) {
