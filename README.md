@@ -2,12 +2,11 @@
 
 The custom module mlfruitandnut search and display dynamically crops and cultivars.
 
-See a glimpse about the module.
-Example video: [video](https://vimeo.com/325511947)
+See a glimpse about the module. Video: [video](https://vimeo.com/325511947)
 
 ## Getting Started
 
-A. Clone the git repo:  
+A. Cloning an Existing Repository  
 ```bash
 
 git clone https://github.com/Viktoru/mlfruitandnut.git
