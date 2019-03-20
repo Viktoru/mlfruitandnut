@@ -275,3 +275,44 @@ field.field.node.mlfruitandnut.field_mlfruitandnut_origin.yml
 field.field.node.mlfruitandnut.field_mlfruitandnut_tree.yml
 ```
 
+The fields that start with the "field.storage.node..." will inform Drupal to create our fields.
+
+field.storage.node.field_mlfruitandnut_crop.yml
+field.storage.node.field_mlfruitandnut_cultivar.yml
+field.storage.node.field_mlfruitandnut_fruit.yml
+field.storage.node.field_mlfruitandnut_origin.yml
+field.storage.node.field_mlfruitandnut_tree.yml
+
+
+```batch
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_mlfruitandnut_crop
+field_name: field_mlfruitandnut_crop
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Apple
+      label: Apple
+    -
+      value: Acerola/Barbados Cherry
+      label: Acerola/Barbados Cherry
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
+
+```
+
+
