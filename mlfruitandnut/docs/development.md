@@ -332,3 +332,18 @@ $('#example').dataTable( {
      }
  
  ```
+ 
+ 
+ ## Linking the records
+ 
+ You will see [ScreenShot7]() with a message to link a cultivar. It will say "See" and the name of the cultivar.
+ If you see a message "Your field is empty. Please, add the correct name to link a Cultivar/s.". It means that you 
+ need to link with a right cultivar.
+ 
+ The next images I will show how look like and after you linked a cultivar.
+ 
+ A. [ScreenShot8]()
+ B. [ScreenShot9]()
+ C. [ScreenShot10]()
+ D. [ScreenShot11]()
+ 
