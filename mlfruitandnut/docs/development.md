@@ -61,10 +61,9 @@ $('#example').dataTable( {
 The content has Crops, Cultivars and Descriptions. There is not need to modify this file.
 For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Ajax%21RestripeCommand.php/class/RestripeCommand/8.0.x).
  
- - Also, I have a Class ResetButtonCommand.php file. It is the same concept from the DataTablesCommand.php file. However, pass AjaxResponse object to render "resetButtonCommand".
+ - The Class ResetButtonCommand.php file. It has the same concept from the DataTablesCommand.php file. However, it is passing AjaxResponse object to render "resetButtonCommand".
  
- 
- - Example script, resetButtonCommand
+ - Example script: resetButtonCommand
  
  ```bash
  Drupal.AjaxCommands.prototype.resetButtonCommand = function(ajax, response, status){
