@@ -343,7 +343,6 @@ $('#example').dataTable( {
  
  ### The next images will shows how to link a cultivar.
  
- 
  A. The [Image 2](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot12.png) shows where to link a cultivar. 
  
  B. The [Image 3](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot11.png) should be linked to a cultivar.
