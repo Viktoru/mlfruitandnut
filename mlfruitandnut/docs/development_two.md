@@ -189,5 +189,78 @@ content:
     weight: 100
 hidden: { }
 
+```
+
+This file "core.entity_form_display.node.mlfruitandnut.default.yml" - adding the field to our content type & how the form should displayed
+creating a new node.
+
+```batch
+
+langcode: en
+status: true
+dependencies:
+  config:
+      - field.field.node.mlfruitandnut.body
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_fruit
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_cultivar
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_origin
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_crop
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_tree
+      - node.type.mlfruitandnut
+  module:
+      - text
+      - user
+id: node.mlfruitandnut.default
+targetEntityType: node
+bundle: mlfruitandnut
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_textarea_with_summary
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_mlfruitandnut_fruit:
+    weight: 2
+    settings:
+      size: 70
+      trim_length: 1000
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_mlfruitandnut_cultivar:
+    weight: 3
+    settings:
+      size: 70
+      trim_length: 1000
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_mlfruitandnut_origin:
+    weight: 4
+    settings:
+      size: 70
+      trim_length: 1000
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_mlfruitandnut_crop:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_mlfruitandnut_tree:
+    weight: 6
+    settings:
+      size: 70
+      trim_length: 1000
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  links:
+    weight: 100
+hidden: { }
 
 ```
