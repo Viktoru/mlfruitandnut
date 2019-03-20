@@ -2,7 +2,7 @@
 
 The custom module mlfruitandnut search and display dynamically crops and cultivars.
 
-Please find see a glimpse view about the module.
+Please find a glimpse view about the module.
 Example video: [video](https://vimeo.com/325511947)
 
 ## Getting Started
