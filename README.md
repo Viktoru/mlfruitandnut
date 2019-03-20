@@ -13,7 +13,7 @@ A. Clone the git repo:
 git clone https://github.com/Viktoru/mlfruitandnut.git
 
 ```
-B. Drag and Drop Custom module mlfruitandnut to your Custom folder or modules folder.
+B. Drag and drop the Custom module mlfruitandnut to your Custom folder or modules folder.
 
 
 After you install the module you need to add the field "link_the_site". This field allows to connect the module
