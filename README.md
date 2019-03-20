@@ -54,7 +54,7 @@ Also, it will create a page called "mainlab_list:. If you domain is domainName.c
 ### How to add Crops to the field_mlfruitandnut_crop field
 
 * Once you are ready to upload the data for a specific Crop and cultivars add your Crop name to the field 
-field_mlfruitandnut_crop. Go to your Content Type and click List(text). Some examples:
+field_mlfruitandnut_crop. Go to your Content Type and click on the List(text). Some examples:
 
 1. Apple|Apple
 2. Abiu|Abiu
