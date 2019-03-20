@@ -264,3 +264,14 @@ content:
 hidden: { }
 
 ```
+
+The rest of the fields, you can visit the folders config->install to find more informations on how to build more fields.
+
+```batch
+field.field.node.mlfruitandnut.field_mlfruitandnut_crop.yml
+field.field.node.mlfruitandnut.field_mlfruitandnut_cultivar.yml
+field.field.node.mlfruitandnut.field_mlfruitandnut_fruit.yml
+field.field.node.mlfruitandnut.field_mlfruitandnut_origin.yml
+field.field.node.mlfruitandnut.field_mlfruitandnut_tree.yml
+```
+
