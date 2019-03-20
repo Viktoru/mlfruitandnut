@@ -307,12 +307,36 @@ persist_with_no_fields: false
 custom_storage: false
 
 ```
+The field "field.storage.node.field_mlfruitandnut_cultivar.yml" will inform Drupal to create the field.
+
+```batch
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_mlfruitandnut_cultivar
+field_name: field_mlfruitandnut_cultivar
+entity_type: node
+type: text
+settings:
+    trim_length: 1000
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
+
+```
+
 
 The rest  of the fields that start with the "field.storage.node..." will tell Drupal to create our fields.
 
 ```batch
-field.storage.node.field_mlfruitandnut_crop.yml
-field.storage.node.field_mlfruitandnut_cultivar.yml
 field.storage.node.field_mlfruitandnut_fruit.yml
 field.storage.node.field_mlfruitandnut_origin.yml
 field.storage.node.field_mlfruitandnut_tree.yml
