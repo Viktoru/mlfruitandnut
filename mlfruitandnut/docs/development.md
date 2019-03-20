@@ -2,7 +2,7 @@
 
 ## Introduction
 
-1.- The module mlfruitandnut has four folders. You can change this by going to DataTables.js website and download the [latest library version](https://datatables.net/download/).
+1.- The module mlfruitandnut is using DataTables.js library. To download the [latest library version](https://datatables.net/download/).
 
 - Please, find more details here: [see image](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot4.png)
 
