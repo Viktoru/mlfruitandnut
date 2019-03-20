@@ -56,19 +56,17 @@ Also, it will create a page called "mainlab_list:. If you domain is domainName.c
 * Once you are ready to upload the data for a specific Crop and cultivars add your Crop name to the field 
 field_mlfruitandnut_crop. Go to your Content Type and click List(text). Some examples:
 
-Apple|Apple
-Abiu|Abiu
-Acerola/Barbados Cherry|Acerola/Barbados Cherry
-Almond Rootstock|Almond Rootstock
-Atemoya|Atemoya
-Banana/Plantain|Banana/Plantain
-Beach Plum|Beach Plum
-Butternut|Butternut
-Cacao|Cacao
-Canistel|Canistel
-Carambola|Carambola
-
-
+1 Apple|Apple
+2 Abiu|Abiu
+3 Acerola/Barbados Cherry|Acerola/Barbados Cherry
+4 Almond Rootstock|Almond Rootstock
+5 Atemoya|Atemoya
+6 Banana/Plantain|Banana/Plantain
+7 Beach Plum|Beach Plum
+8 Butternut|Butternut
+9 Cacao|Cacao
+10 Canistel|Canistel
+11 Carambola|Carambola
 
 ### Developers
 
