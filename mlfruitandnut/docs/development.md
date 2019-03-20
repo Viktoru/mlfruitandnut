@@ -343,10 +343,10 @@ $('#example').dataTable( {
  
  ### The next images will shows how to link a cultivar.
  
- A. The [Image 2](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot12.png) shows where to link a cultivar. 
+ A. The [Image 2](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot2.png) shows what cultivar to link. 
  
- B. The [Image 3](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot11.png) should be linked to a cultivar.
+ B. The [Image 3](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot3.png) how to link a cultivar, adding the cultivar into a imput form. 
  
- C. The [Image 4](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot13.png) shows the input to link a cultivar.
+ C. The [Image 4](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot1.png) shows linked a cultivar.
 
  
