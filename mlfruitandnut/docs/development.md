@@ -13,7 +13,8 @@ Under the folder "assets". I have a subfolder named DataTables and a constructio
 - The construction.js file, it is a custom function built for the custom module mlfruitandnut.
 
 - In there you can order the columns, short, filter, search and add other futures.
-You can visit [this website](https://datatables.net/examples/index) for more information. 
+You can visit [this website](https://datatables.net/examples/index) for more information. The code below is the code I am
+using for this module.
 
 ```bash
 (function($, Drupal) {
