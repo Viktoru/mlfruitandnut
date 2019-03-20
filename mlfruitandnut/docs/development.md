@@ -108,7 +108,7 @@ $('#example').dataTable( {
  
 3.- How #form works?
 
-- Create a pulldown menu to select a Crop. It is a Ajax callback named "::promptCallbackCrop". If you want to re-name it. First, you have to change the Custom Content Type.
+- Create a pulldown menu to select a Crop. It is a Ajax callback named "::promptCallbackCrop".
 
 ```bash
 
@@ -330,5 +330,27 @@ $('#example').dataTable( {
        }
        return $response;
      }
+ 
+ ```
+ 
+ ## Creating Custom Content Type file
+ 
+ This "node.type.mlfruitandnut.yml" YAML file will tell Drupal to create a new content type.
+ 
+ ```batch
+ 
+ langcode: en
+ status: true
+ dependencies:
+   enforced:
+     module:
+       - mlfruitandnut
+ name: 'Main Lab Fruit and Nut'
+ type: mlfruitandnut
+ description: 'Content type that can be used to provide additional information on <em>mlfruitandnut</em>'
+ help: ''
+ new_revision: false
+ preview_mode: 1
+ display_submitted: true
  
  ```
