@@ -69,17 +69,18 @@ field_mlfruitandnut_crop. Go to your Content Type and click on the List(text). S
 
 ### Developers
 
-For information on the installation and development of mlfruitandnut module, please take a look at [doc/development.md](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md)
+For information on the development of mlfruitandnut custom-module, please take a look at [doc/development.md](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md)
 
 ## Running the tests
 
-To run a test you need to install the mlfruitandnut module. Next, add data into your content type form. Then you can search on your domainname.com/mainlab_list to see your Overview data.
+To run a test you need to install the mlfruitandnut module. Next, add your data into your content type named "Main Lab Fruit and Nut".
+Finally, add the path "/mainlab_list" after your domain-name to see your Overview in action.
 
 ## Built With
 
 * [DataTable](https://datatables.net/) - Add advanced interaction controls to your HTML Tables.
 * [CodyHouse](https://codyhouse.co/) - The web framework used.
-* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local by Victor.
+* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local by Victor U.
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme.
 * [PHP 7.1.x](http://php.net/) - PHP version.
 * [Drupal 8.x](http://www.drupal.org) - Drupal 8.x
