@@ -277,15 +277,18 @@ field.field.node.mlfruitandnut.field_mlfruitandnut_tree.yml
 
 The fields that start with the "field.storage.node..." will inform Drupal to create our fields.
 
+```batch
 field.storage.node.field_mlfruitandnut_crop.yml
 field.storage.node.field_mlfruitandnut_cultivar.yml
 field.storage.node.field_mlfruitandnut_fruit.yml
 field.storage.node.field_mlfruitandnut_origin.yml
 field.storage.node.field_mlfruitandnut_tree.yml
+```
+
+The field "field.storage.node.field_mlfruitandnut_crop.yml" will inform Drupal to create the field.
 
 
 ```batch
-
 langcode: en
 status: true
 dependencies:
