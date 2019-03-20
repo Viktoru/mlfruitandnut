@@ -120,3 +120,74 @@
     hidden: { }
     
 ```
+
+This file "core.entity_view_display.node.mlfruitandnut.default.yml" - adding the field to our content type & how the content type should displayed default.
+
+```batch
+
+langcode: en
+status: true
+dependencies:
+  config:
+      - field.field.node.mlfruitandnut.body
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_fruit
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_cultivar
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_origin
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_crop
+      - field.field.node.mlfruitandnut.field_mlfruitandnut_tree
+      - node.type.mlfruitandnut
+  module:
+      - text
+      - user
+id: node.mlfruitandnut.default
+targetEntityType: node
+bundle: mlfruitandnut
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_mlfruitandnut_fruit:
+    weight: 2
+    label: above
+    settings:
+        trim_length: 1000
+    third_party_settings: {  }
+    type: string
+  field_mlfruitandnut_cultivar:
+    weight: 3
+    label: above
+    settings:
+        trim_length: 1000
+    third_party_settings: {  }
+    type: string
+  field_mlfruitandnut_origin:
+    weight: 4
+    label: above
+    settings:
+        trim_length: 1000
+    third_party_settings: {  }
+    type: string
+  field_mlfruitandnut_crop:
+    type: list_default
+    weight: 5
+    region: content
+    label: above
+    settings: {}
+    third_party_settings: {  }
+  field_mlfruitandnut_tree:
+    weight: 6
+    label: above
+    settings:
+        trim_length: 1000
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden: { }
+
+
+```
