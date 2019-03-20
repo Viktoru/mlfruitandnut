@@ -49,3 +49,74 @@
   field_type: text_with_summary
   
   ```
+  
+   This file "core.entity_view_display.node.mlfruitandnut.teaser.yml" - adding the teaser field to our content type & displayed.
+   
+    ```batch
+    
+    langcode: en
+    status: true
+    dependencies:
+      config:
+          - core.entity_view_mode.node.teaser
+          - field.field.node.mlfruitandnut.body
+          - field.field.node.mlfruitandnut.field_mlfruitandnut_fruit
+          - field.field.node.mlfruitandnut.field_mlfruitandnut_cultivar
+          - field.field.node.mlfruitandnut.field_mlfruitandnut_origin
+          - field.field.node.mlfruitandnut.field_mlfruitandnut_crop
+          - field.field.node.mlfruitandnut.field_mlfruitandnut_tree
+          - node.type.mlfruitandnut
+      module:
+          - text
+          - user
+    id: node.mlfruitandnut.teaser
+    targetEntityType: node
+    bundle: mlfruitandnut
+    mode: teaser
+    content:
+      body:
+        label: hidden
+        type: text_summary_or_trimmed
+        weight: 1
+        settings: {  }
+        third_party_settings: {  }
+      field_mlfruitandnut_fruit:
+        weight: 2
+        label: above
+        settings:
+            trim_length: 1000
+        third_party_settings: {  }
+        type: string
+      field_mlfruitandnut_cultivar:
+        weight: 3
+        label: above
+        settings:
+            trim_length: 1000
+        third_party_settings: {  }
+        type: string
+      field_mlfruitandnut_origin:
+        weight: 4
+        label: above
+        settings:
+            trim_length: 1000
+        third_party_settings: {  }
+        type: string
+      field_mlfruitandnut_crop:
+        type: list_default
+        weight: 5
+        region: content
+        label: above
+        settings: {}
+        third_party_settings: {  }
+      field_mlfruitandnut_tree:
+        weight: 6
+        label: above
+        settings:
+            trim_length: 1000
+        third_party_settings: {  }
+        type: string
+      links:
+        weight: 100
+    hidden: { }
+    
+    ```
