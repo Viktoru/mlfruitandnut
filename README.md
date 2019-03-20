@@ -7,10 +7,6 @@ Examples: [image one](/ScreenShot1.png), [image two](/ScreenShot2.png) and [imag
 
 ## Getting Started
 
-After you install the module you need to add the field "link_the_site". This field allows to connect the module
-Overview. Go to your Content Types, select "Main Lab Fruit and Nut". Click on Manage Fields and Add field called "field_link_the_site".
-Make sure is exactly the same name. Otherwise, it will return an error after you install the module Overview.
-
 Option to Clone the git repo -- 
 ```bash
 
@@ -18,8 +14,13 @@ git clone https://github.com/Viktoru/mlfruitandnut.git
 
 ```
 
-Note: In the future you can create a Custom Content Type by creating a YAML file that contain all the required configuration.
-For more details go to the mlfruitandnut>config>install folders for examples or visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
+After you install the module you need to add the field "link_the_site". This field allows to connect the module
+Overview. Go to your Drupal 8 site, and select Content Types "Main Lab Fruit and Nut". Click on Manage Fields, and Add a field name "field_link_the_site".
+Make sure is exactly the same name. Otherwise, it will returns an error after you install the module Overview.
+
+
+Note: In the future you can create a Custom Content Type file by creating a YAML file that contain all the required configuration.
+For more details go to the mlfruitandnut->config->install folders for examples or visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
 
 
 ### Dependencies:
