@@ -7,7 +7,7 @@ Examples: [image one](/ScreenShot1.png), [image two](/ScreenShot2.png) and [imag
 
 ## Getting Started
 
-After you install this custom module you need to add the field "link_the_site". This field allows to connect the module
+After you install the module you need to add the field "link_the_site". This field allows to connect the module
 Overview. Go to your Content Types, select "Main Lab Fruit and Nut". Click on Manage Fields and Add field called "field_link_the_site".
 Make sure is exactly the same name. Otherwise, it will return an error after you install the module Overview.
 
