@@ -55,7 +55,7 @@ $('#example').dataTable( {
   ]
 } );
 ```
- - The Construction.js file allows to sort columns. [Image one](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot5.png) and [Image two](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot6.png).
+ - The Construction.js file allows you to sort columns: [Video](https://vimeo.com/325531353).
  
  - In the src folder, under the folder Ajax the DataTablesCommand.php Class file allows to pass AjaxResponse objects "#content".
    In this case, the Crops, Cultivars and Descriptions. There is not need to modify this file. For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Ajax%21RestripeCommand.php/class/RestripeCommand/8.0.x).
