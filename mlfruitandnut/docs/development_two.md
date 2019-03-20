@@ -341,3 +341,7 @@ field.storage.node.field_mlfruitandnut_fruit.yml
 field.storage.node.field_mlfruitandnut_origin.yml
 field.storage.node.field_mlfruitandnut_tree.yml
 ```
+
+## Using the UI to export the code for your custom fields
+
+[Visit this site](https://www.drupal.org/docs/8/api/entity-api/using-the-ui-to-export-the-code-for-your-custom-fields).
