@@ -108,7 +108,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  ```
  
  
-3.- How #form works?
+3.- How the #form works?
 
 - Create a pulldown menu to select a Crop. It is a Ajax callback named "::promptCallbackCrop".
 
