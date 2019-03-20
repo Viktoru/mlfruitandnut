@@ -336,7 +336,7 @@ $('#example').dataTable( {
  
  ## Linking the records
  
- You will see this message [Image 1](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot7.png)  to link a cultivar. In this case "Summerdel". 
+ You will see this message [Image 1](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot2.png)  to link a cultivar. In this case "Summerdel". 
  
  Message: "Your field is empty. Please, add the correct name to link a Cultivar/s. See Summerdel".
  It means that you need to link with a right cultivar.
