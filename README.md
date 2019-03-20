@@ -31,6 +31,11 @@ For more details go to the mlfruitandnut->config->install folders for examples o
 - path
 - text
 
+### Creating the custom content type
+
+- [Visit this site](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development_two.md)
+
+
 ### Prerequisites
 
 - Drupal 8.6.x
