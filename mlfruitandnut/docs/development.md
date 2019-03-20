@@ -347,6 +347,4 @@ $('#example').dataTable( {
  
  B. The [Image 3](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot3.png) how to link a cultivar, adding the cultivar into a imput form. 
  
- C. The [Image 4](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot1.png) shows linked a cultivar.
-
- 
+ C. The [Image 4](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot4.png) shows linked a cultivar.
