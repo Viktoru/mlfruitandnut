@@ -4,7 +4,7 @@
  
  This "node.type.mlfruitandnut.yml" YAML file will tell Drupal to create a new content type.
  
- ```batch
+```batch
  
  langcode: en
  status: true
@@ -20,11 +20,11 @@
  preview_mode: 1
  display_submitted: true
  
- ```
+```
  
  This file "field.field.node.mlfruitandnut.body.yml" - adding the field to our content type.
  
-  ```batch
+```batch
   
   langcode: en
   status: true
@@ -48,11 +48,11 @@
       display_summary: true
   field_type: text_with_summary
   
-  ```
+```
   
    This file "core.entity_view_display.node.mlfruitandnut.teaser.yml" - adding the teaser field to our content type & displayed.
    
-    ```batch
+```batch
     
     langcode: en
     status: true
@@ -119,4 +119,4 @@
         weight: 100
     hidden: { }
     
-    ```
+```
