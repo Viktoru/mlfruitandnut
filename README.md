@@ -1,4 +1,4 @@
-# FRUIT AND NUT PROJECT
+# The Fruit and Nut Cultivars Database (FNCD)
 
 The custom module mlfruitandnut search and display dynamically crops and cultivars.
 
