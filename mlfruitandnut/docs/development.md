@@ -338,7 +338,7 @@ $('#example').dataTable( {
  
  You will see this message [ScreenShot7](https://github.com/Viktoru/mlfruitandnut/blob/master/ScreenShot7.png)  to link a cultivar. In this case "Summerdel". 
  
- Message: "Your field is empty. Please, add the correct name to link a Cultivar/s. See summerdel".
+ Message: "Your field is empty. Please, add the correct name to link a Cultivar/s. See Summerdel".
  It means that you need to link with a right cultivar.
  
  ### The next images will shows how to link a cultivar.
