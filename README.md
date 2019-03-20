@@ -7,7 +7,7 @@ Examples: [image one](/ScreenShot1.png), [image two](/ScreenShot2.png) and [imag
 
 ## Getting Started
 
-Option to Clone the git repo -- 
+Clone the git repo:  
 ```bash
 
 git clone https://github.com/Viktoru/mlfruitandnut.git
