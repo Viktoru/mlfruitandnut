@@ -45,10 +45,19 @@ Also, visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/mas
 To install the mlfruitandnut module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend Menu to install the module.
 After you install this module, it will create a Content Types called Main Lab Fruit and Nut. Also, it will create a page called "mainlab_list:” If your domain is domainName.com/mainlab_list, add /mainlab_list after the domain name of your hosting. If there is no data, it will not show any listing for Crop and Cultivar. You need to upload the data to be able to see it.
 
+### How to upload the data using cvs import module.
+
+* Here is the format of the table for how it should look before uploading the data into the Content Types Main Lab Fruit and Nut.
+
+Id | title | body | field_mlfruitandnut_crop | field_mlfruitandnut_cultivar | field_mlfruitandnut_fruit | field_mlfruitandnut_origin | field_mlfruitandnut_tree | field_link_the_site
+Use the following Python script to convert a doc document to a csv file. After you convert that file, open it with Excel Application. First, open the Excel Application and select Data from the top Menu. Next, select From Text, and search for your converting file. Follow the instructions and make sure to select “UTF-8” and Delimited. Next, check the box for “Comma”. Finally, leave the columns named as they currently are. Click finished.
+
+* After that add all the fields with the correct names: Id, title, body, and so on. Make sure the data is in the right fields. Please see the image below for more information. 
+
+
 ### How to add Crops to the field_mlfruitandnut_crop field
 
-* Once you are ready to upload the data for a specific Crop and cultivars add your Crop name to the field 
-field_mlfruitandnut_crop. Go to your Content Type and click on the List(text). Some examples:
+* •	Once you are ready to upload the data for a specific Crop and Cultivars, add your Crop name to the field field_mlfruitandnut_crop. Go to your Content Type and click on the List(text). Some examples include:
 
 1. Apple|Apple
 2. Abiu|Abiu
