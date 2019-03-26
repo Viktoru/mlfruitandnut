@@ -57,7 +57,7 @@ Id | title | body | field_mlfruitandnut_crop | field_mlfruitandnut_cultivar | fi
 
 ### How to add Crops to the field_mlfruitandnut_crop field
 
-* •	Once you are ready to upload the data for a specific Crop and Cultivars, add your Crop name to the field field_mlfruitandnut_crop. Go to your Content Type and click on the List(text). Some examples include:
+* Once you are ready to upload the data for a specific Crop and Cultivars, add your Crop name to the field field_mlfruitandnut_crop. Go to your Content Type and click on the List(text). Some examples include:
 
 1. Apple|Apple
 2. Abiu|Abiu
