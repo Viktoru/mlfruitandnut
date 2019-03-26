@@ -22,7 +22,7 @@
  
 ```
  
- This file "field.field.node.mlfruitandnut.body.yml" - adding the field to our content type.
+ This file "field.field.node.mlfruitandnut.body.yml" - adds the field to our content type.
  
 ```batch
   
@@ -50,7 +50,7 @@
   
 ```
   
-   This file "core.entity_view_display.node.mlfruitandnut.teaser.yml" - adding the teaser field to our content type & displayed.
+   This file "core.entity_view_display.node.mlfruitandnut.teaser.yml" - adds the teaser field to our content type & display.
    
 ```batch
     
@@ -121,7 +121,7 @@
     
 ```
 
-This file "core.entity_view_display.node.mlfruitandnut.default.yml" - adding the field to our content type & how the content type should displayed default.
+This file "core.entity_view_display.node.mlfruitandnut.default.yml" - adds the field to our content type & affects how the content type should display in default.
 
 ```batch
 
@@ -191,8 +191,7 @@ hidden: { }
 
 ```
 
-This file "core.entity_form_display.node.mlfruitandnut.default.yml" - adding the field to our content type & how the form should displayed
-creating a new node.
+This file "core.entity_form_display.node.mlfruitandnut.default.yml" – adds the field to our content type & affects how the form should display when creating a new node.
 
 ```batch
 
@@ -265,7 +264,7 @@ hidden: { }
 
 ```
 
-The rest of the fields, you can visit the folders config->install to find more informations on how to build more fields.
+For the rest of the fields, you can visit the folders config->install to find more information on how to build them.
 
 ```batch
 field.field.node.mlfruitandnut.field_mlfruitandnut_crop.yml
@@ -275,7 +274,7 @@ field.field.node.mlfruitandnut.field_mlfruitandnut_origin.yml
 field.field.node.mlfruitandnut.field_mlfruitandnut_tree.yml
 ```
 
-The field "field.storage.node.field_mlfruitandnut_crop.yml" will inform Drupal to create the field.
+The field "field.storage.node.field_mlfruitandnut_crop.yml" will inform Drupal to create the corresponding field.
 
 
 ```batch
@@ -307,7 +306,7 @@ persist_with_no_fields: false
 custom_storage: false
 
 ```
-The field "field.storage.node.field_mlfruitandnut_cultivar.yml" will inform Drupal to create the field.
+The field "field.storage.node.field_mlfruitandnut_cultivar.yml" will inform Drupal to create the corresponding field.
 
 ```batch
 
@@ -333,8 +332,7 @@ custom_storage: false
 
 ```
 
-
-The rest  of the fields that start with the "field.storage.node..." will tell Drupal to create our fields.
+The rest of the fields that start with "field.storage.node..." will tell Drupal to create additional fields.
 
 ```batch
 field.storage.node.field_mlfruitandnut_fruit.yml
