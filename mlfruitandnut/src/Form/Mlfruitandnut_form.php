@@ -26,6 +26,9 @@ use Drupal\Core\Datetime\DrupalDateTime;
  */
 class Mlfruitandnut_form extends FormBase {
 
+  /**
+   * @return string
+   */
   public function getFormId() {
     return 'mlfruitandnut_search'; // pbcc_search
   }
@@ -162,6 +165,12 @@ class Mlfruitandnut_form extends FormBase {
     return $form['mlfruitandnut_title'];
   }
 
+  /**
+   * @param array $form
+   * @param \Drupal\Core\Form\FormStateInterface $form_state
+   *
+   * @return \Drupal\Core\Ajax\AjaxResponse
+   */
   public function promptCallbackReset(array &$form, FormStateInterface $form_state) {
     $response = new AjaxResponse();
     $response->addCommand(new ResetButtonCommand('test'));
@@ -194,7 +203,12 @@ class Mlfruitandnut_form extends FormBase {
     return $options;
   }
 
-
+  /**
+   * @param array $form
+   * @param \Drupal\Core\Form\FormStateInterface $form_state
+   *
+   * @return array|\Drupal\Core\Ajax\AjaxResponse
+   */
   public function promptCallbackSearch(array &$form, FormStateInterface $form_state) {
     /**
      * $form_state - errors, returns the form with errors and messages.
@@ -301,6 +315,9 @@ class Mlfruitandnut_form extends FormBase {
 
   }
 
+  /**
+   * @return array
+   */
   protected function getTitle() {
     $query = \Drupal::entityQuery('node');
     $query->condition('status',1);
