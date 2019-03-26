@@ -300,7 +300,6 @@ class Mlfruitandnut_form extends FormBase {
         }
         fclose($fp);
         $content .= "</tbody></table></div>";
-        //         $response->addCommand(new HtmlCommand('#response-result', $content, $entity));
         $response->addCommand(new DataTablesCommand($content));
       }
       return $response;
@@ -309,7 +308,7 @@ class Mlfruitandnut_form extends FormBase {
 
   /**
    * @return array
-   * Need to changed, write a query to call all the values from the nodes. Drupal API.
+   * A query to call all the values from nodes. Drupal API.
    */
   protected function getCrop() {
     $connection = \Drupal::database();
