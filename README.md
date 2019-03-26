@@ -77,8 +77,7 @@ For information on the development of mlfruitandnut custom-module, please take a
 
 ## Running the tests
 
-To run a test you need to install the mlfruitandnut module. Next, add your data into your content type named "Main Lab Fruit and Nut".
-Finally, add the path "/mainlab_list" after your domain-name to see your Overview in action.
+To run a test you need to install the mlfruitandnut module. Next, add your data into your content type named "Main Lab Fruit and Nut". Finally, add the path "/mainlab_list" after your domain-name to see your Overview in action.
 
 ## Built With
 
