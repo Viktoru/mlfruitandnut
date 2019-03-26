@@ -12,7 +12,7 @@ Under the folder "assets", there is a subfolder named DataTables and a construct
 
 - The construction.js file is a custom function built for the custom module mlfruitandnut.
 
-- •	In that file you can order, sort and filter columns, search field(s) and add other features. You can visit 
+- In that file you can order, sort and filter columns, search field(s) and add other features. You can visit 
 [this website](https://datatables.net/examples/index) for more information. 
 The code below is the code being used for this module.
 
@@ -33,7 +33,7 @@ The code below is the code being used for this module.
           };
 ``` 
 
-- You can create your own examples:
+- You can create your own examples. You'll also find an example below.
 
 ```bash
 $('#example').dataTable( {
@@ -42,7 +42,7 @@ $('#example').dataTable( {
 
 ```
 
-- Disable filtering on the first column:
+- Disable filtering on the first column. You'll also find an example below. 
 
 ```bash
 $('#example').dataTable( {
@@ -55,13 +55,12 @@ $('#example').dataTable( {
   ]
 } );
 ```
- - The Construction.js file allows you to sort columns: [Video](https://vimeo.com/325531353).
+ - The Construction.js file allows you to sort columns [Video](https://vimeo.com/325531353).
  
- - The src->Ajax folders I have a DataTablesCommand.php Class file. It is allows to pass AjaxResponse objects "#content".
-The content has Crops, Cultivars and Descriptions. There is not need to modify this file.
+ - The src->Ajax folders contains a DataTablesCommand.php Class file. It allows passing of AjaxResponse objects "#content". The content has Crops, Cultivars and Descriptions. There is no need to modify this file.
 For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Ajax%21RestripeCommand.php/class/RestripeCommand/8.0.x).
  
- - The Class ResetButtonCommand.php file. It has the same concept from the DataTablesCommand.php file. However, it is passing AjaxResponse object to render "resetButtonCommand".
+ - The Class ResetButtonCommand.php file has the same concept from the DataTablesCommand.php file. However it passes the AjaxResponse object to render "resetButtonCommand".
  
  - Example script: resetButtonCommand
  
@@ -77,7 +76,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  
  ```
   
- - Putting the script all together, construction.js file.
+ - For putting the script all together, please see construction.js file.
  
  ```bash
  (function($, Drupal) {
