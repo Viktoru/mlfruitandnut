@@ -270,17 +270,27 @@ class Mlfruitandnut_form extends FormBase {
         $fp = fopen('public://csvtemp/'.$file_name, 'w');
         $content .= "<div class='table-responsive'><a class='btn' style='float:right;' target='_blank' href='".'/sites/default/files/csvtemp/'.$file_name."'>CSV</a><table id='construction-table' data-page-length='10' class='display'><thead><tr><th>CULTIVAR NAME</th><th>DESCRIPTION</th></tr></thead><tbody>";
         $csv = array();
-//        $csv[] = array('id','field_mlfruitandnut_crop','field_mlfruitandnut_cultivar','title','field_mlfruitandnut_origin','field_mlfruitandnut_fruit','field_mlfruitandnut_tree','body');
+
+        // BEGINS
+        // If you want to return more fields //
+        // $csv[] = array('id','field_mlfruitandnut_crop','field_mlfruitandnut_cultivar','title','field_mlfruitandnut_origin','field_mlfruitandnut_fruit','field_mlfruitandnut_tree','body');
+        // ENDS
+
         $csv[] = array('id','field_mlfruitandnut_cultivar','body');
         $id = 1;
         foreach ($entity as $k) {
           $node = \Drupal\node\Entity\Node::load($k);
           $content .= '<tr><td style="width:15%">' . $node->getTitle() . '</td>';
           $content .= '<td class="dt-body-justify" style="width:40%">' . $node->body->value . '</td>';
-       //   $content .= '<td class="dt-body-justify">' . $node->get('field_mlfruitandnut_origin')->value . '</td>';
-        //  $content .= '<td class="dt-body-justify">' . $node->get('field_mlfruitandnut_fruit')->value . '</td>';
-          //   $content .= '<td class="dt-body-justify">' . $node->get('field_mlfruitandnut_tree')->value . '</td></tr>';
-        //  $csv[] = array($id,$node->get('field_mlfruitandnut_crop')->value,$node->get('field_mlfruitandnut_cultivar')->value,$node->get('title')->value,$node->get('field_mlfruitandnut_origin')->value,$node->get('field_mlfruitandnut_fruit')->value,$node->get('field_mlfruitandnut_tree')->value,strip_tags(trim($node->body->value)));
+
+          // BEGINS
+          // If you want to display more fields.
+          // $content .= '<td class="dt-body-justify">' . $node->get('field_mlfruitandnut_origin')->value . '</td>';
+          // $content .= '<td class="dt-body-justify">' . $node->get('field_mlfruitandnut_fruit')->value . '</td>';
+          // $content .= '<td class="dt-body-justify">' . $node->get('field_mlfruitandnut_tree')->value . '</td></tr>';
+          // $csv[] = array($id,$node->get('field_mlfruitandnut_crop')->value,$node->get('field_mlfruitandnut_cultivar')->value,$node->get('title')->value,$node->get('field_mlfruitandnut_origin')->value,$node->get('field_mlfruitandnut_fruit')->value,$node->get('field_mlfruitandnut_tree')->value,strip_tags(trim($node->body->value)));
+          // ENDS
+
           $csv[] = array($id,$node->get('field_mlfruitandnut_cultivar')->value,strip_tags(trim($node->body->value)));
           $id++;
         }
