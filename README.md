@@ -42,11 +42,8 @@ Also, visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/mas
 
 ### Installing
 
-To install mlfruitandnut module you just need to copy the module into your Drupal 8 Module folder or custom folder. 
-After that go to my Drupal 8 Extend Menu to install the module.
-
-After you install this module, it will create a Content Types called Main Lab Fruit and Nut.
-Also, it will create a page called "mainlab_list:. If you domain is domainName.com/mainlab_list. Add /mainlab_list after your domainname of your hosting.
+To install the mlfruitandnut module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend Menu to install the module.
+After you install this module, it will create a Content Types called Main Lab Fruit and Nut. Also, it will create a page called "mainlab_list:” If your domain is domainName.com/mainlab_list, add /mainlab_list after the domain name of your hosting. If there is no data, it will not show any listing for Crop and Cultivar. You need to upload the data to be able to see it.
 
 ### How to add Crops to the field_mlfruitandnut_crop field
 
