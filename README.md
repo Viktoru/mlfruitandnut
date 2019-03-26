@@ -50,10 +50,10 @@ After you install this module, it will create a Content Types called Main Lab Fr
 * Here is the format of the table for how it should look before uploading the data into the Content Types Main Lab Fruit and Nut.
 
 Id | title | body | field_mlfruitandnut_crop | field_mlfruitandnut_cultivar | field_mlfruitandnut_fruit | field_mlfruitandnut_origin | field_mlfruitandnut_tree | field_link_the_site
-Use the following Python script to convert a doc document to a csv file. After you convert that file, open it with Excel Application. First, open the Excel Application and select Data from the top Menu. Next, select From Text, and search for your converting file. Follow the instructions and make sure to select “UTF-8” and Delimited. Next, check the box for “Comma”. Finally, leave the columns named as they currently are. Click finished.
+
+* Use the [following Python script](https://github.com/Viktoru/python2.7.10/blob/master/script2.py) to convert a doc document to a csv file. After you convert that file, open it with Excel Application. First, open the Excel Application and select Data from the top Menu. Next, select From Text, and search for your converting file. Follow the instructions and make sure to select “UTF-8” and Delimited. Next, check the box for “Comma”. Finally, leave the columns named as they currently are. Click finished.
 
 * After that add all the fields with the correct names: Id, title, body, and so on. Make sure the data is in the right fields. Please see the image below for more information. 
-
 
 ### How to add Crops to the field_mlfruitandnut_crop field
 
