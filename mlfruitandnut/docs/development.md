@@ -109,7 +109,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  
 3.- How the #form works?
 
-- Create a pulldown menu to select a Crop. It is a Ajax callback named "::promptCallbackCrop".
+- Create a pulldown menu to select a Crop. It is an Ajax callback named "::promptCallbackCrop".
 
 ```bash
 
@@ -153,8 +153,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  
  ```
  
- - After a user select a Crop. Next, it will display two options from the function __get_activity_options, "All Cultivars" title option and
- a Cultivar list based what Crop was selected. 
+ - After a user selects a Crop, next it will display two options from the function __get_activity_options: "All Cultivars" title option and a Cultivar list based on what Crop was selected.
  
  ```bash
   
@@ -171,13 +170,13 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
       
   ```
 
- - The $selected variable is getting the value from:  
+ - The $selected variable is getting the value from $form_state:  
  
  ```bash
  $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
  ```
  
- - The function __get_activity_options looks like: At here the function is executing $selected to $key.
+ - The function __get_activity_options looks like: At here (not sure what to do here) the function is executing $selected to $key.
  
  
  ```bash
@@ -210,7 +209,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
     
   ```
  
- - This action, it is a reset button. It has a callback function "::promptCallbackReset".
+ - This action is a reset button. It has a callback function "::promptCallbackReset".
  
  ```bash
  
@@ -233,7 +232,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  
  ```
  
- - Callback function promptCallbackReset.
+ - Callback function promptCallbackReset, a new AjaxResponse().
  
  ```bash
  
@@ -245,9 +244,9 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  
  ```
  
- - The next function called promptCallbackSearch. This function retrieve and display Crops, Cultivars & Description.
+ - The next function is called promptCallbackSearch. This function retrieves and displays Crops, Cultivars & Description.
  
- + It is getting two values mlfruitandnutcrop & mlfruitandnut_title.
+ + It is getting two values: mlfruitandnutcrop & mlfruitandnut_title.
  
   ```bash
   
@@ -287,7 +286,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
   
   ```
  
- - In this section is displaying a table, Crops, Cultivar & Description. It is creating a CSV file to donwload the record(s).
+ - This section displays a table, Crops, Cultivar & Description. It is creating a CSV file to download the record(s).
  
  ```bash
  
@@ -337,15 +336,14 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  
  ## Linking the records
  
- You will see this message [Image 1](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot2.png)  to link a cultivar. In this case "Summerdel". 
+ You will see this message [Image 1](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot2.png)  to link a cultivar. In this case it is "Summerdel". 
  
- Message: "Your field is empty. Please, add the correct name to link a Cultivar/s. See Summerdel".
- It means that you need to link with a right cultivar.
+ Message: "Your field is empty. Please add the correct name to link a Cultivar/s. See Summerdel". It means that you need to link with the right cultivar.
  
- ### The next images will shows how to link a cultivar.
+ ### The next images will show how to link a cultivar.
  
  A. The [Image 2](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot2.png) shows what cultivar to link. 
  
- B. The [Image 3](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot3.png) how to link a cultivar, adding the cultivar into a imput form. 
+ B. The [Image 3](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot3.png) shows how to link a cultivar, adding the cultivar into a imput form. 
  
- C. The [Image 4](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot4.png) shows linked a cultivar.
+ C. The [Image 4](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot4.png) shows a linked a cultivar.
