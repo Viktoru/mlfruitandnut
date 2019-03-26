@@ -1,6 +1,6 @@
 # The Fruit and Nut Cultivars Database (FNCD)
 
-The custom module mlfruitandnut search and dynamically display crops and cultivars.
+The custom module mlfruitandnut dynamically searches and displays crops and cultivars.
 
 See a glimpse about the module. Open this [video](https://vimeo.com/325511947).
 
@@ -12,16 +12,14 @@ A. Cloning an Existing Repository
 git clone https://github.com/Viktoru/mlfruitandnut.git
 
 ```
-B. Drag and drop the Custom module mlfruitandnut into your "Custom" folder or "modules" folder.
+B. Drag and drop the Custom module mlfruitandnut files to your "Custom" folder or "modules" folder.
 
 
-After the installation you need to add a field and named it "link_the_site". This field allows to connect the module
-Overview. Go to your Drupal 8 site, and select Content Types "Main Lab Fruit and Nut" name. Click on the Manage Fields option,
-and "Add" a field name "field_link_the_site".
-Make sure is exactly the same name. Otherwise, it will returns an error after you install the module Overview.
+After you install the module you need to add a field and name it "link_the_site". This field allows you to connect to the module Overview. Go to your Drupal 8 site, and select Content Types named "Main Lab Fruit and Nut". Click on the Manage Fields option, and "Add" a field name "field_link_the_site". Make sure it is exactly the same name.
+Otherwise, it will return an error after you install the module Overview.
 
-Note: In the future you can create a Custom Content Type file by creating a YAML file that contain all the required configuration.
-For more details go to the mlfruitandnut->config->install folders. Visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
+Note: In the future you can create a Custom Content Type file by creating a YAML file that contains all the required configurations. For more details go to the mlfruitandnut->config->install folders. 
+Also, visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md). for more information about this module.
 
 
 ### Dependencies:
@@ -32,7 +30,7 @@ For more details go to the mlfruitandnut->config->install folders. Visit [develo
 
 ### Creating the custom content type
 
-- [Visit this site](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development_two.md)
+- [View the site](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development_two.md)
 
 
 ### Prerequisites
