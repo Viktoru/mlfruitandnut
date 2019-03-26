@@ -2,19 +2,19 @@
 
 ## Introduction
 
-1.- The module mlfruitandnut is using DataTables.js library. To download the [latest library version](https://datatables.net/download/).
+1.- The module mlfruitandnut is using DataTables.js library. Visit here to download the [latest library version](https://datatables.net/download/).
 
-2.- The module was divided on folders and files. [See image](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot5.png)
+2.- The module is divided in folders and files. [See image](https://github.com/Viktoru/mlfruitandnut/blob/master/images/ScreenShot5.png)
 
-Under the folder "assets". I have a subfolder named DataTables and a construction.js file.
+Under the folder "assets", there is a subfolder named DataTables and a construction.js file.
 
 #### Editing Construction.js file - Disable bPaginate and bLength
 
-- The construction.js file, it is a custom function built for the custom module mlfruitandnut.
+- The construction.js file is a custom function built for the custom module mlfruitandnut.
 
-- On that file you can order columns, sort columns, filter columns, search field(s) and add other futures.
-You can visit [this website](https://datatables.net/examples/index) for more information. 
-The code below is the code I am using for this module.
+- •	In that file you can order, sort and filter columns, search field(s) and add other features. You can visit 
+[this website](https://datatables.net/examples/index) for more information. 
+The code below is the code being used for this module.
 
 ```bash
 (function($, Drupal) {
