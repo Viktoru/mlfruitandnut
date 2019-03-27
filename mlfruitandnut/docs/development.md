@@ -176,7 +176,7 @@ For more information visit [Drupal API](https://api.drupal.org/api/drupal/core%2
  $selected = ($form_state->getValue('mlfruitandnutcrop') != NULL) ? $form_state->getValue('mlfruitandnutcrop') : ''; 
  ```
  
- - The function __get_activity_options looks like: At here (not sure what to do here) the function is executing $selected to $key.
+ - The function __get_activity_options return a array. The function is executing $selected to $key.
  
  
  ```bash
